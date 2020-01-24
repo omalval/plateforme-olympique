@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "sans-serif";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0e0000;
+  text-align: left;
+  background-color: #f4f4f4;
+}
+
+.logo {
+  text-align: center;
+  line-height: 0.6em;
+  margin-bottom: 60px;
+}
+
+.logo span {
+  color: #5285c1;
+  font-style: italic;
+}
+
+.logo img {
+    mix-blend-mode: multiply;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    height: 300px;
+}
+
+.cards_and_map_container {
+    display: flex;
+}
+
+.cards-row {
+    width: 400px;
+    height: 4000px;
+    flex: 0 0 60%;
+}
+
+.mapboxgl-map {
+    width: 40%;
+    height: 600px;
+    position: sticky;
+    top: 0;
+}
+
+.box {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.box:first-child {
+  margin-top: 0;
+}
